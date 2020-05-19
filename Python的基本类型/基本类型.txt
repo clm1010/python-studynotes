@@ -78,3 +78,54 @@ False
 
 bool(None)
 False
+
+4、str字符串 单引号、双引号、三引号
+type('hello')
+class str
+
+type("hello")
+class str
+
+三引号
+
+'''
+hello world
+hello world
+hello world
+'''
+'\nhello\nhello\nhello\n'
+
+5、转义字符
+\n 换行
+\' 单引号
+\t 横向制表符
+\r 回车
+
+6、字符串运算
+"hello" + "world"
+'helloworld'
+
+"hello"*3
+'hellohellohello'
+
+// 通过下标来截取得单个字符
+"hello world"[0]
+'h'
+
+// 对于负数 会依据字符串末尾往前数 截取
+"hello world"[-1]
+'d'
+
+"hello world"[0:4]
+'hell'
+
+"hello world"[0:-2]
+'hello wor'
+
+// 截取字符串到末尾
+"hello world"[6:]
+'world'
+
+// 截取world
+"hello world"[-5:]
+'world'
