@@ -1,0 +1,80 @@
+1、整数：int
+type(1)
+class int
+
+type(-1)
+class int
+
+type(1*1)
+class int
+
+type(2//2)
+class int
+
+
+2、浮点数：float
+type(1.1)
+class float
+
+type(1+0.1)
+class float
+
+type(1+1.0)
+class float
+
+type(1*1.0)
+class float
+
+type(2/2)
+class float
+
+3、bool布尔类型 True False
+type(True)
+class bool
+
+type(False)
+class bool
+
+int(True)
+1
+
+int(False)
+0
+
+bool(1)
+True
+
+bool(0)
+False
+
+bool类型属于Number类型下的一种
+非0都表示为True
+bool(2)
+True
+
+bool(0)
+False
+
+bool(0.0)
+False
+
+bool('abc')
+True
+
+bool('')
+False
+
+bool([1,2,3])
+True
+
+bool([])
+False
+
+bool({1,2,3})
+True
+
+bool({})
+False
+
+bool(None)
+False
